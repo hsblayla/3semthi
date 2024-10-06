@@ -4,17 +4,17 @@
 		  query-sort-by:: page
 		  query-table:: true
 		  query-sort-desc:: true
-	- Übung
+	- ## Übung
 		- {{query (and [[MIS]] [[Übung]] [[Zahlentheorie]])}}
 		  query-sort-by:: page
 		  query-table:: true
 		  query-sort-desc:: true
-	- Praktikum
+	- ## Praktikum
 		- {{query (and [[MIS]] [[Praktikum]] [[Zahlentheorie]])}}
 		  query-table:: true
 		  query-sort-by:: page
 		  query-sort-desc:: true
-	- Sonstiges
+	- ## Sonstiges
 		- {{query (and [[MIS]] [[Sonstiges]] [[Zahlentheorie]])}}
 		  query-table:: true
 		  query-sort-by:: page
