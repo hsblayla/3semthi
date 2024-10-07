@@ -1,0 +1,31 @@
+file:: [Gruppenpuzzle_1728294761176_0.pdf](../assets/Gruppenpuzzle_1728294761176_0.pdf)
+file-path:: ../assets/Gruppenpuzzle_1728294761176_0.pdf
+
+- [:span]
+  ls-type:: annotation
+  hl-page:: 3
+  hl-color:: red
+  id:: 6703ca13-df14-40d8-9115-b2e95b3bbaae
+  hl-type:: area
+  hl-stamp:: 1728301585713
+- [:span]
+  ls-type:: annotation
+  hl-page:: 3
+  hl-color:: red
+  id:: 6703ca76-1062-419b-9e92-13046132ecb5
+  hl-type:: area
+  hl-stamp:: 1728301685385
+- [:span]
+  ls-type:: annotation
+  hl-page:: 3
+  hl-color:: red
+  id:: 6703caa8-3207-4bfe-af5d-f0a836e738f7
+  hl-type:: area
+  hl-stamp:: 1728301734622
+- [:span]
+  ls-type:: annotation
+  hl-page:: 4
+  hl-color:: red
+  id:: 6703cba5-319d-47b2-bdd3-4ad38a1ca985
+  hl-type:: area
+  hl-stamp:: 1728301987257
