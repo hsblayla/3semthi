@@ -22,3 +22,24 @@ file-path:: ../assets/THI_CSI_INF_B3_AngewandteMathematik_Anteil_Zahlentheorie_W
   id:: 6704cfd1-e348-420c-a952-212120807f60
   hl-type:: area
   hl-stamp:: 1728368591824
+- [:span]
+  ls-type:: annotation
+  hl-page:: 21
+  hl-color:: red
+  id:: 6705432f-8f5c-4ebe-9b85-0eeff90ecea6
+  hl-type:: area
+  hl-stamp:: 1728398125900
+- [:span]
+  ls-type:: annotation
+  hl-page:: 22
+  hl-color:: red
+  id:: 670543a0-9c74-4fb3-af79-1d72f2eee267
+  hl-type:: area
+  hl-stamp:: 1728398239427
+- [:span]
+  ls-type:: annotation
+  hl-page:: 22
+  hl-color:: red
+  id:: 67054480-9f11-40d2-b2fd-11799000fc0e
+  hl-type:: area
+  hl-stamp:: 1728398462703
