@@ -1,0 +1,52 @@
+file:: [03_Logischer_Entwurf.pdf_1728374441710_0.pdf](../assets/03_Logischer_Entwurf.pdf_1728374441710_0.pdf)
+file-path:: ../assets/03_Logischer_Entwurf.pdf_1728374441710_0.pdf
+
+- [:span]
+  ls-type:: annotation
+  hl-page:: 6
+  hl-color:: red
+  id:: 6704e6e1-f439-4230-9bbd-21ca9de17a49
+  hl-type:: area
+  hl-stamp:: 1728374495661
+- [:span]
+  ls-type:: annotation
+  hl-page:: 15
+  hl-color:: red
+  id:: 6704ebae-9b52-4193-bc95-1d665eb93023
+  hl-type:: area
+  hl-stamp:: 1728375724990
+- [:span]
+  ls-type:: annotation
+  hl-page:: 16
+  hl-color:: red
+  id:: 6704ebdf-1277-4a3b-a64f-a38b44056aca
+  hl-type:: area
+  hl-stamp:: 1728375774658
+- [:span]
+  ls-type:: annotation
+  hl-page:: 19
+  hl-color:: red
+  id:: 6704ec5b-d572-4947-b6c2-7e3f544c15dc
+  hl-type:: area
+  hl-stamp:: 1728375897612
+- [:span]
+  ls-type:: annotation
+  hl-page:: 26
+  hl-color:: red
+  id:: 6704ee41-bdc3-4e4e-b5b5-9af126fc3d12
+  hl-type:: area
+  hl-stamp:: 1728376383749
+- [:span]
+  ls-type:: annotation
+  hl-page:: 29
+  hl-color:: red
+  id:: 6704ee9c-4f39-45db-8f49-1059d6c05b1f
+  hl-type:: area
+  hl-stamp:: 1728376475066
+- [:span]
+  ls-type:: annotation
+  hl-page:: 30
+  hl-color:: red
+  id:: 6704eeaa-5fab-429a-8663-2a2659dec61b
+  hl-type:: area
+  hl-stamp:: 1728376488681

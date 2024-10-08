@@ -15,3 +15,10 @@ file-path:: ../assets/THI_CSI_INF_B3_AngewandteMathematik_Anteil_Zahlentheorie_W
   id:: 66fc1f1d-92bd-4afd-a3e0-ce8981ae6ea7
   hl-type:: area
   hl-stamp:: 1727799068174
+- [:span]
+  ls-type:: annotation
+  hl-page:: 13
+  hl-color:: red
+  id:: 6704cfd1-e348-420c-a952-212120807f60
+  hl-type:: area
+  hl-stamp:: 1728368591824
