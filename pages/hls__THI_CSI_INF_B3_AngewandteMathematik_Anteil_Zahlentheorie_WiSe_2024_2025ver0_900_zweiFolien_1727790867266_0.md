@@ -43,3 +43,10 @@ file-path:: ../assets/THI_CSI_INF_B3_AngewandteMathematik_Anteil_Zahlentheorie_W
   id:: 67054480-9f11-40d2-b2fd-11799000fc0e
   hl-type:: area
   hl-stamp:: 1728398462703
+- [:span]
+  ls-type:: annotation
+  hl-page:: 29
+  hl-color:: red
+  id:: 6717acf9-3201-4b1f-879a-539e5923a7f8
+  hl-type:: area
+  hl-stamp:: 1729604855640
