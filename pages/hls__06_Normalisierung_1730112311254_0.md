@@ -1,0 +1,52 @@
+file:: [06_Normalisierung_1730112311254_0.pdf](../assets/06_Normalisierung_1730112311254_0.pdf)
+file-path:: ../assets/06_Normalisierung_1730112311254_0.pdf
+
+- [:span]
+  ls-type:: annotation
+  hl-page:: 10
+  hl-color:: red
+  id:: 671f6bbe-ee55-4edd-a461-88cc2a877c04
+  hl-type:: area
+  hl-stamp:: 1730112444566
+- [:span]
+  ls-type:: annotation
+  hl-page:: 15
+  hl-color:: red
+  id:: 671f6bd3-987c-4ce6-93bb-be660ae0fdc9
+  hl-type:: area
+  hl-stamp:: 1730112465755
+- [:span]
+  ls-type:: annotation
+  hl-page:: 17
+  hl-color:: red
+  id:: 671f6be2-7108-4d5e-bbfd-971ddd9355a2
+  hl-type:: area
+  hl-stamp:: 1730112480760
+- [:span]
+  ls-type:: annotation
+  hl-page:: 18
+  hl-color:: red
+  id:: 671f6bef-c918-4d5b-94ae-f26c36c54fc2
+  hl-type:: area
+  hl-stamp:: 1730112494525
+- [:span]
+  ls-type:: annotation
+  hl-page:: 20
+  hl-color:: red
+  id:: 671f6c7e-2e7f-477e-b8f1-8c6e43abd45f
+  hl-type:: area
+  hl-stamp:: 1730112636763
+- [:span]
+  ls-type:: annotation
+  hl-page:: 23
+  hl-color:: red
+  id:: 671f6ca7-5136-4b3f-8875-a3b3f424b244
+  hl-type:: area
+  hl-stamp:: 1730112677709
+- [:span]
+  ls-type:: annotation
+  hl-page:: 24
+  hl-color:: red
+  id:: 671f6cb5-5c97-447c-8116-873dabbb4b6d
+  hl-type:: area
+  hl-stamp:: 1730112691728
