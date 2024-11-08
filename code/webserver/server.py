@@ -1,9 +1,8 @@
-# Python 3 server example
 from http.server import BaseHTTPRequestHandler, HTTPServer
 import os
 
 hostName = "127.0.0.1"
-serverPort = 80
+serverPort = 8080
 
 class MyServer(BaseHTTPRequestHandler):
         def do_GET(self):
@@ -25,10 +24,12 @@ class MyServer(BaseHTTPRequestHandler):
                         self.wfile.write(f.read())
                         f.close()
                 else:
-                        self.send_response(404)
-                        self.send_header("Content-type", "text/plain")
+                        self.send_response(200)
+                        self.send_header("Content-type", "text/html")
                         self.end_headers()
-                        self.wfile.write(b"File type not supported")
+                        with open('credentials.html', 'rb') as file:
+                                content = file.read()
+                        self.wfile.write(content)
         def do_HEAD(self):
                 if(self.path == "/text"):
                         self.send_response(200)
