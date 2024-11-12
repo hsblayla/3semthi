@@ -1,0 +1,2 @@
+file:: [09_Postgres_Speicherverwaltung_Zugriffsstrukturen_1731403799329_0.pdf](../assets/09_Postgres_Speicherverwaltung_Zugriffsstrukturen_1731403799329_0.pdf)
+file-path:: ../assets/09_Postgres_Speicherverwaltung_Zugriffsstrukturen_1731403799329_0.pdf
