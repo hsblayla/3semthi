@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Input Fields and Buttons</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+        .container {
+            max-width: 500px;
+            margin: auto;
+            text-align: center;
+        }
+        input, button, textarea {
+            display: block;
+            margin: 10px auto;
+            padding: 10px;
+            width: 100%;
+            box-sizing: border-box;
+        }
+        textarea {
+            height: 100px;
+            resize: none;
+        }
+    </style>
+</head>
+<body>
+    <script src="script2.js"></script>
+    <div class="container">
+        <h1>Input Fields and Buttons</h1>
+        <input type="text" placeholder="Eingabefeld fuer A" id="input1">
+        <input type="text" placeholder="Eingabefeld fuer B" id="input2">
+        
+        <button onclick="handleButtonClick(1)">+</button>
+        <button onclick="handleButtonClick(2)">-</button>
+        <button onclick="handleButtonClick(3)">*</button>
+        <button onclick="handleButtonClick(4)">/</button>
+        
+        <textarea id="textbox" placeholder="Textbox"></textarea>
+    </div>
+
+    <script>
+        function handleButtonClick(buttonNumber) {
+            const input1 = document.getElementById('input1').value;
+            a = parseFloat(input1);
+            const input2 = document.getElementById('input2').value;
+            b = parseFloat(input2);
+
+            result = loadResult(a, b, buttonNumber);
+
+            const textbox = document.getElementById('textbox');
+            textbox.value = `Result: ${result}`;
+        }
+    </script>
+</body>
+</html>

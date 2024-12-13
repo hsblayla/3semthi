@@ -8,7 +8,7 @@ const handle_request_name_based = (req, res) => {
     //Building Path to the files, including the host name, so we get name based hosting
     let filePath = __dirname + "/" + path;
     if (path == `/`) {
-      filePath += `index.html`;
+      filePath += `calc2.html`;
     }
 
     

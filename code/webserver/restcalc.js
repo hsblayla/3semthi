@@ -1,10 +1,12 @@
 const express = require('express');
 
 const app = express ();
-
 app.use(express.json());
 
-const PORT = 8080;
+const cors = require('cors');
+app.use(cors());
+
+const PORT = 3000;
 
 app.listen(PORT, () => {
     console.log("Server Listening on PORT:", PORT);
@@ -21,7 +23,7 @@ app.get("/add", (request, response) => {
     
     const { a, b } = request.query; // Zugriff auf die Query-Parameter
     if ((a===undefined) || (b===undefined)) {
-        response.status(400).send({error: "Gib bitte 2 Parameter a und b an!"})
+        response.status(500).send({error: "Gib bitte 2 Parameter a und b an!"})
     }
     const c = Number(a) + Number(b);
     console.log(`Adding ${a} and ${b} ...`);
@@ -37,7 +39,7 @@ app.get("/add", (request, response) => {
 app.get("/sub", (request, response) => {
     const { a, b } = request.query; // Zugriff auf die Query-Parameter
     if ((a===undefined) || (b===undefined)) {
-        response.status(400).send({error: "Gib bitte 2 Parameter a und b an!"})
+        response.status(500).send({error: "Gib bitte 2 Parameter a und b an!"})
     }
     const c = Number(a) - Number(b);
     console.log("Substacting a and b ...", a, b);
@@ -53,7 +55,7 @@ app.get("/sub", (request, response) => {
 app.get("/times", (request, response) => {
     const { a, b } = request.query; // Zugriff auf die Query-Parameter
     if ((a===undefined) || (b===undefined)) {
-        response.status(400).send({error: "Gib bitte 2 Parameter a und b an!"})
+        response.status(500).send({error: "Gib bitte 2 Parameter a und b an!"})
     }
     const c = Number(a) * Number(b);
     console.log(`Multiplying ${a} and ${b} ...`);
@@ -69,10 +71,10 @@ app.get("/times", (request, response) => {
 app.get("/div", (request, response) => {
     const { a, b } = request.query; // Zugriff auf die Query-Parameter
     if ((a===undefined) || (b===undefined)) {
-        response.status(400).send({error: "Gib bitte 2 Parameter a und b an!"})
+        response.status(500).send({error: "Gib bitte 2 Parameter a und b an!"})
     }
     if (parseFloat(b)==0) {
-        response.status(400).send({error: "Lern Mathe du Wicht! Das darf man nicht"})
+        response.status(500).send({error: "Lern Mathe du Wicht! Das darf man nicht"})
     } else {
         const c = parseFloat(a) / parseFloat(b);
         console.log(`Dividing ${a} by ${b} ...`);
